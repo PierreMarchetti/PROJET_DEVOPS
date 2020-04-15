@@ -1,8 +1,8 @@
 language:  java
 #travis setup releases --com
-jdk:
+#jdk:
     #- oraclejdk8
-    - openjdk8
+    #- openjdk8
 git:
     quiet: true
 
