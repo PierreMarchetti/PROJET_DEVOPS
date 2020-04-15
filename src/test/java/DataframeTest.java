@@ -5,6 +5,8 @@ import static org.junit.Assert.*;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import main.java.Dataframe;
+
 public class DataframeTest {
 
 	@BeforeClass
@@ -13,57 +15,7 @@ public class DataframeTest {
 
 	@Test
 	public void testDataframeString() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testDataframeObjectArrayArray() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testDisplayDataframe() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testHead() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testTail() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testIloc() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testLoc() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testSum() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testMean() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testMax() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testMin() {
-		fail("Not yet implemented");
+		new Dataframe("t");
 	}
 
 }
