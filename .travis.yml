@@ -8,8 +8,8 @@ git:
 
 # blocklist
 branches:
-    only:
-        - master
+    except:
+    - release
 
 travis setup releases
 delpoy:
