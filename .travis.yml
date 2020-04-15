@@ -8,12 +8,12 @@ git:
 
 # blocklist
 branches:
-    except:
-    - release
+    only:
+    - master
 
-
+travis setup releases
 delpoy:
-    provider: master 
+    provider: releases 
     api_key: "GITHUB OAUTH TOKEN"
     file: "FILE TO UPLOAD"
     skip_cleanup: true
