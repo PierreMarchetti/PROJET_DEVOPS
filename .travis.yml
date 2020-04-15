@@ -1,6 +1,18 @@
 language:  java
+jdk:
+    #- oraclejdk8
+    - openjdk8
+git:
+    quiet: true
+
+
+# blocklist
+branches:
+    except:
+    - release
+
+
 delpoy:
-    provider: master
     api_key: "GITHUB OAUTH TOKEN"
     file: "FILE TO UPLOAD"
     skip_cleanup: true
