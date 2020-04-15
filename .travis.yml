@@ -13,6 +13,7 @@ branches:
 
 
 delpoy:
+    all_branches: true
     api_key: "GITHUB OAUTH TOKEN"
     file: "FILE TO UPLOAD"
     skip_cleanup: true
