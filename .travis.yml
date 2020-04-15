@@ -1,5 +1,5 @@
 language:  java
-travis setup releases --com
+#travis setup releases --com
 jdk:
     #- oraclejdk8
     - openjdk8
