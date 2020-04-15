@@ -9,7 +9,7 @@ git:
 # blocklist
 branches:
     only:
-    - master
+        - master
 
 travis setup releases
 delpoy:
