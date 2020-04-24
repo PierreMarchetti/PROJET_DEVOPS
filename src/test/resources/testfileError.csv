@@ -1,3 +1,4 @@
+java.lang.Integer,java.lang.Double,java.lang.String
 1,2.0,aa
 not an int,3.6,bb
 3.0,5.9,cc
