@@ -1,22 +1,13 @@
-language:  java
-#travis setup releases --com
-#jdk:
-    #- oraclejdk8
-    #- openjdk8
+language: java
 git:
-    quiet: true
-
-
-# blocklist
+  quiet: true
 branches:
-    except:
-    - release
-
-delpoy:
-    provider: releases 
-    api_key: "GITHUB OAUTH TOKEN"
-    file: "FILE TO UPLOAD"
-    skip_cleanup: true
-    on:
-        all_branches: true
-        branch: release
+  except:
+  - release
+deploy:
+  provider: releases
+  api_key:
+    secure: Q7HnFXcr2/w4zMVGs8mq+cRro4lMjjx/IJbu7j0hilYADJF+m5PCCWc5zaqxEYrPR4EtaFXcyJMe3G0PB3ba7iC35gqoJiigyh81EMMMjiU0Jz54eUPQIG2ZYkbplExFHA7qz4RcC+zd6rsHzC+i5Iezu1MYAqzDuZILfjRyybTN+giDxgnBDcDsnEw3N2r3rTpN22uqrD+9b4QMClKXe3bD81babmenV4y5iSrWPmM5ee9f/1lBwNu6rX53oJM83F/oG5y3vPcrR0L5k4QLZHw7YfYnle4MDc6Xw3Ipxncja52mfhylQQIvuwlSk8DsjebpKmybNZ6dURsTmQdYLuus4YEiJpkLyoLoEKHInblT4cMpgkPfjN9nR3ukXl/8OY/p70N2Ebreixi1HAy3jwQAoSvaPmVW7mV7+yeca3fVp7hLtJbeOB3MGlsRfyO3LiPXiU7gH7GEPg7Xhkk25Tf17GXDJPiG5fWeq7lm4301XPwzhxgN3kzocnisOXedseZ5HT/RWhM5RSTW2pIDobwH+0AksriDxOGaaicWJOhm9YeY+RTuFiXHTjl1Yu99Q6oAzfCG3bfyogRYbf8fLfxP1VQfYo/3kozpiel30x3aFNUdEdKIJX9/9RNP3zodxH5cdHrkL3fPZ9eD9C3msW0TcuuT9yhRSrkyI0QnhJU=
+  file: ''
+  on:
+    repo: PierreMarchetti/PROJET_DEVOPS
