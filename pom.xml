@@ -23,10 +23,16 @@
 				<version>0.8.5</version>
 				<executions>
 					<execution>
+						<id>default-prepare-agent</id>
+						<goals>
+							<goal>prepare-agent</goal>
+						</goals>
+					</execution>
+					<execution>
 						<id>check</id>
 						<phase>test</phase>
 						<goals>
-							<goal>check</goal>					
+							<goal>check</goal>
 							<goal>report</goal>
 						</goals>
 						<configuration>
